@@ -10,8 +10,8 @@ body{
 #mainDiv{
     display: flex;
     justify-content: center;
-    margin-top: 50%;
-    margin-bottom: 50%;
+    margin-top: 20%;
+    
 }
 
 #calculatorContainer{
@@ -42,4 +42,13 @@ body{
    margin-right: 5%;
    margin-top: 5%;
    height: 10%;
+   
+}
+#clear, #delete{
+    font-size: 24px;
+}
+#clear:hover, #delete:hover{
+    transform: scale(1.1, 1.1); 
+    box-shadow: 1px 2px 4px;
+    transition: 0.1s ease-in-out;
 }
