@@ -17,3 +17,17 @@
     background-color: silver;
     
 }
+#screenDiv{
+    background-color: rgb(66, 128, 66);
+    width: 90%;
+    height: 20%;
+    margin-top: 5%;
+    margin-left: 5%;
+    text-align: right;
+    
+}
+#numberInputs{
+    font-size: 100px;
+    background: none;
+    
+}
