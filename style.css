@@ -18,6 +18,7 @@ body{
     width: 500px;
     height: 500px;
     background-color: silver;
+    border-radius: 24px;
     
 }
 #screenDiv{
@@ -80,3 +81,17 @@ body{
     font-size: 24px;
     border-radius: 25px;
 }
+#thirdlinenumberscontainer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 5%;
+    height: 10%;
+}
+#one, #two, #three, #minus{
+    font-size: 24px;
+    border-radius: 25px;
+}
+
