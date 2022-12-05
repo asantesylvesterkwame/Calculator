@@ -1,8 +1,11 @@
  @import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap'); 
 
 *{
-    background-color: rgb(32, 27, 32);
+    
     font-family: 'ubuntu', sans-serif;
+}
+body{
+    background-color: rgb(32, 27, 32);
 }
 #mainDiv{
     display: flex;
@@ -30,4 +33,13 @@
     font-size: 100px;
     background: none;
     
+}
+#clearAndDeleteContainer{
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   gap: 5%;
+   margin-left: 5%;
+   margin-right: 5%;
+   margin-top: 5%;
+   height: 10%;
 }
