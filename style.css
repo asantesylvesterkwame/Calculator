@@ -107,4 +107,9 @@ body{
     font-size: 24px;
     border-radius: 25px;
 }
-
+#clear:hover{
+    background-color: rgba(255, 0, 0, 0.616);
+}
+#delete:hover{
+    
+}
