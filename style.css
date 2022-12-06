@@ -28,11 +28,15 @@ body{
     margin-top: 5%;
     margin-left: 5%;
     text-align: right;
-    
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+
 }
-#numberInputs{
-    font-size: 100px;
-    background: none;
+#numberInputs, #screenDiv, span{
+    font-size: 36px;
+    
     
 }
 #clearAndDeleteContainer{
