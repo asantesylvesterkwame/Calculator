@@ -33,10 +33,7 @@ let calcKeys = {
     pointKey: '.', 
 } 
 
-let clearButton = document.getElementById('clear');
-let clearButtonEvent = clearButton.addEventListener('click', function () {
-    
-});
+
 
 oneKey.addEventListener('click', function () {
     let calcSpan = document.createElement('span');
@@ -103,7 +100,17 @@ oneKey.addEventListener('click', function () {
     numberInputs.append(calcSpanPlus);
     calcSpanPlus.innerHTML = calcKeys.plusKey;
  });
+ pointKey.addEventListener('click', function () {
+    let calcSpanPoint = document.createElement('span');
+    numberInputs.append(calcSpanPoint);
+    calcSpanPoint.innerHTML = calcKeys.pointKey;
+ });
+
+ let clearButton = document.getElementById('clear');
  
+let clearButtonEvent = clearButton.addEventListener('click', function () {
+    
+});
 
 
 
