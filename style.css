@@ -125,3 +125,16 @@ body{
     color: black;
     font-size: 48px;
 }
+#cursor {
+    background: lime;
+    line-height: 17px;
+    margin-left: 3px;
+    -webkit-animation: blink 1s infinite;
+    width: 20px;
+    height: 50%;
+  }
+  @-webkit-keyframes blink {
+    0% {background: #222}
+    50% {background: rgba(255, 0, 0, 0.781)}
+    100% {background: #222}
+  }
