@@ -108,9 +108,6 @@ oneKey.addEventListener('click', function () {
 
  let clearButton = document.getElementById('clear');
  
-let clearButtonEvent = clearButton.addEventListener('click', function () {
-    
-});
 
 
 
