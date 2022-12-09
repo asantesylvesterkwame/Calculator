@@ -14,7 +14,7 @@
     <div id="calculatorContainer">
         <div id="screenDiv"><input type="text" id="numberInputs" value=""></div>
         <div id="clearAndDeleteContainer">
-            <button id="clear"><a href="index.html" id="clearLink">AC</a> </button>
+            <input type="button" value="AC" id="clear" onclick="clean()">
             <button id="delete">DELETE</button>
         </div>
         <div id="firstlinenumberscontainer">
@@ -38,7 +38,7 @@
         <div id="lastlinenumberscontainer">
             <input class="inputbutton" type="button" value="."id="point" onclick="button('.')">
             <input class="inputbutton" type="button" value="0" id="zero" onclick="button(0)">
-            <input class="inputbutton" type="button" value="=" id="equalSign" onclick="button('=')">
+            <input class="inputbutton" type="button" value="=" id="equalSign" onclick="solve()">
             <input class="inputbutton" type="button" value="+" id="plus" onclick="button('+')">
         </div>
     </div>
