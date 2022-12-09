@@ -120,12 +120,27 @@
 let inputSeven =document.getElementById('seven')
 let inputSevenValue = document.getElementById('seven').value;
 let numberInputs = document.getElementById('numberInputs');
+let clearButton = document.getElementById('clear')
 
- function button(num) {
+function button(num) 
+{
     numberInputs.value = numberInputs.value+num;
+    console.log(numberInputs.value);
 };
 
+function clean()
+{
+    numberInputs.value="";
+}
 
+function solve()
+{
+var exp = document.getElementById("numberInputs").value;
+ if(exp)
+ { 
+    document.getElementById("numberInputs").value=eval(exp);
+ }
+}
 
 
 
