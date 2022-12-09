@@ -117,10 +117,13 @@
 //    let calcpoint =  calcSpanPoint.innerHTML = calcKeys.pointKey;
 //    console.log(calcpoint);
 //  });
+let inputSeven =document.getElementById('seven')
+let inputSevenValue = document.getElementById('seven').value;
+let numberInputs = document.getElementById('numberInputs');
 
-
- 
-
+ function button(num) {
+    numberInputs.value = numberInputs.value+num;
+};
 
 
 
