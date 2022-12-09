@@ -125,7 +125,7 @@ let clearButton = document.getElementById('clear')
 function button(num) 
 {
     numberInputs.value = numberInputs.value+num;
-    console.log(numberInputs.value);
+    
 };
 
 function clean()
@@ -133,13 +133,19 @@ function clean()
     numberInputs.value="";
 }
 
-function solve()
+function equal()
 {
 var exp = document.getElementById("numberInputs").value;
  if(exp)
  { 
     document.getElementById("numberInputs").value=eval(exp);
  }
+}
+function back()
+{
+    var numberInputsValue = document.getElementById("numberInputs").value;
+    numberInputsValue = numberInputsValue.slice(0,-1);
+    document.getElementById("numberInputs").value = numberInputsValue;
 }
 
 
