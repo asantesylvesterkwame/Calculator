@@ -16,7 +16,7 @@ body{
 
 #calculatorContainer{
     width: 50%;
-    height: 1000px;
+    height: 1500px;
     background-color: silver;
     border-radius: 24px;
     
@@ -153,4 +153,3 @@ body{
   #numberInputs:hover{
     transform: none;
   }
-  
